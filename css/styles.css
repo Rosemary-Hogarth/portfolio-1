@@ -1,20 +1,20 @@
-.hero {
-  padding: 200px 20px;
-}
+
 
 
 
 .container {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
-  font-size: 25px;
-  margin-left: 200px;
+  font-size: 30px;
+  
+  padding: 40px;
 }
 
 .container h1 {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
-  font-size: 60px;
+  font-size: 50px;
+ 
 }
 .btn-branding {
   background: #f0c990 ;
@@ -24,10 +24,22 @@
   font-weight: 200;
   line-height: 27px;
   padding: 13px 40px;
-  margin-top: 40px;
+ 
 
 }
 
 span {
   text-decoration: underline #f0c990;
+}
+
+img {
+  margin-left: 190px;
+ 
+  
+
+}
+
+.text {
+  margin-top: 150px;
+  margin-left: 100px;
 }
