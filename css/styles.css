@@ -37,9 +37,34 @@ div a:hover {
   
 }
 
-span {
-  text-decoration: underline #f0c990;
-}
+
+
+
+
+  span {
+    position: relative;
+  }
+  
+  span:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 5px;
+    background:#f0c88f;
+    opacity: 0.8;
+    bottom: 0px;
+    transition: all 0.2s ease-out;
+  }
+  
+  p:hover {
+    background-position: 0 15px;
+  }
+  
+  span:hover:before {
+    transform: translateY(5px)
+  }
+
 
 img {
   margin-left: 190px;
