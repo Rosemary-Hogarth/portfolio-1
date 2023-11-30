@@ -38,9 +38,6 @@ div a:hover {
 }
 
 
-
-
-
   span {
     position: relative;
   }
@@ -50,9 +47,9 @@ div a:hover {
     position: absolute;
     left: 0;
     right: 0;
-    height: 5px;
+    height: 8px;
     background:#f0c88f;
-    opacity: 0.8;
+    opacity: 0.5;
     bottom: 0px;
     transition: all 0.2s ease-out;
   }
