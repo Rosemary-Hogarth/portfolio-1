@@ -1,7 +1,33 @@
-h1 {
-  font-family: poppins;
-  background: pink;
+.hero {
+  padding: 200px 20px;
 }
-p {
-  font-family: helvecia;
+
+
+
+.container {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 25px;
+  margin-left: 200px;
+}
+
+.container h1 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 60px;
+}
+.btn-branding {
+  background: #f0c990 ;
+  border-radius: 20px;
+  color: black;
+  font-size: 15px;
+  font-weight: 200;
+  line-height: 27px;
+  padding: 13px 40px;
+  margin-top: 40px;
+
+}
+
+span {
+  text-decoration: underline #f0c990;
 }
