@@ -12,14 +12,14 @@
 .container {
   font-family: var(--heading-font-family);
   font-weight: 300;
-  font-size: 25px;
+  
   
 }
 
 .container h1 {
   font-family: var(--heading-font-family);
   font-weight: 400;
-  font-size: 50px;
+  
  
 }
 .btn-branding {
@@ -70,6 +70,7 @@ div a:hover {
 
 img {
   margin-left: 190px;
+  
  
 }
 
@@ -92,6 +93,42 @@ img {
 .socials :hover {
   color: #f9f7fe;
   background-color: #2b3035;
+}
+
+
+.fade-in-text {
+  font-family: var(--heading-font-family);
+  font-size: 30px;
+  animation: fadeIn 5s;
+  -webkit-animation: fadeIn 5s;
+  -moz-animation: fadeIn 5s;
+  -o-animation: fadeIn 5s;
+  -ms-animation: fadeIn 5s;
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-moz-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-webkit-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-o-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-ms-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
 }
 
 
