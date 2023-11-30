@@ -1,24 +1,29 @@
 
+:root {
+  --branding-color: #f0c990;
+  --heading-font-family: 'Roboto', sans-serif;
+}
+
 .hero {
   padding-bottom: 50px;
 }
 
 
 .container {
-  font-family: 'Roboto', sans-serif;
+  font-family: var(--heading-font-family);
   font-weight: 300;
   font-size: 25px;
   
 }
 
 .container h1 {
-  font-family: 'Roboto', sans-serif;
+  font-family: var(--heading-font-family);
   font-weight: 400;
   font-size: 50px;
  
 }
 .btn-branding {
-  background: #f0c990 ;
+  background:var(--branding-color);
   border-radius: 20px;
   color: black;
   font-size: 15px;
