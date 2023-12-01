@@ -9,7 +9,9 @@
   padding-bottom: 10px;
 }
 
-
+h3 {
+  font-size: 15px;
+}
 .container {
   font-family: var(--heading-font-family);
   font-weight: 300;  
@@ -24,7 +26,7 @@
 .btn-branding {
   background:var(--branding-color);
   border-radius: 20px;
-  color: black;
+  color: white;
   font-size: 15px;
   font-weight: 300;
   line-height: 27px;
@@ -69,8 +71,10 @@ div a:hover {
 
 img {
   margin-left: 190px;
+  border-radius: 40px;;
  
 }
+
 
 .text {
   margin-top: 150px;
@@ -93,6 +97,37 @@ img {
   background-color: #2b3035;
 }
 
+.btn-weather, .btn-clock, .btn-icecream, .btn-berlin {
+  text-decoration: none;
+  background: #a2aaa5 ;
+  color:white;
+  border-radius: 20px;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 27px;
+  padding: 13px 40px;
+  
+}
+
+.btn-weather:hover {
+  text-decoration: none;
+}
+
+.btn-clock {
+  background: #e8d39a;  
+}
+.btn-icecream {
+  
+  background: #eecdad;
+}
+
+.btn-berlin {
+  background:#6b6972 ;  
+}
+
+.project-description {
+  margin-left: 60px;
+}
 
 .fade-in-text {
   font-family: var(--heading-font-family);
@@ -130,29 +165,22 @@ img {
 }
 
 
-@media (max-width: 1200px) {
-img {
-  display: none;
-  
-}
-
-}
 
 
 
-@media (max-width: 576px) {
+
+@media (max-width: 960px) {
  .text {
   margin: 0 auto;
  }
   
   .container h1 {
-    font-size: 35px;
+    font-size: 45px;
     font-weight: 500;
   }
   .container {
-    font-size: 20px;
+    font-size: 30px;
     font-weight: 300;
-   
     text-align: center;
     display:block;
     
@@ -161,5 +189,9 @@ img {
     padding: 5px 20px;
   }
  
+  p {
+    font-size: 20px;
+    text-align: center;
+  }
 }
 
