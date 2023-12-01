@@ -5,23 +5,22 @@
 }
 
 .hero {
-  padding-bottom: 50px;
+  padding-top: 50px;
+  padding-bottom: 10px;
 }
 
 
 .container {
   font-family: var(--heading-font-family);
-  font-weight: 300;
-  
+  font-weight: 300;  
   
 }
 
 .container h1 {
   font-family: var(--heading-font-family);
   font-weight: 400;
-  
- 
 }
+
 .btn-branding {
   background:var(--branding-color);
   border-radius: 20px;
@@ -70,7 +69,6 @@ div a:hover {
 
 img {
   margin-left: 190px;
-  
  
 }
 
@@ -82,7 +80,7 @@ img {
 .socials a {
   text-decoration: none;
   font-size: 20px;
-  margin: 0px 30px;
+  margin: 80px 30px;
   padding: 5px 10px;
   color: #2b3035;
   background-color: #f9f7fe;
@@ -98,7 +96,7 @@ img {
 
 .fade-in-text {
   font-family: var(--heading-font-family);
-  font-size: 30px;
+  font-size: 26px;
   animation: fadeIn 5s;
   -webkit-animation: fadeIn 5s;
   -moz-animation: fadeIn 5s;
@@ -139,6 +137,8 @@ img {
 }
 
 }
+
+
 
 @media (max-width: 576px) {
  .text {
