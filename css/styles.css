@@ -220,5 +220,13 @@ img {
     text-align: center;
     
   }
+
+  .project-description {
+    margin:0;
+  }
+
+.portrait {
+  margin-left: 0;
+}
 }
 
