@@ -205,6 +205,7 @@ img {
     font-weight: 300;
     text-align: center;
     display:block;
+   
     
   }
   .btn-branding {
@@ -215,11 +216,11 @@ img {
     font-size: 20px;
     text-align: center;
   }
-
   .about-section {
     text-align: center;
-    
+   
   }
+ 
 
   .project-description {
     margin:0;
