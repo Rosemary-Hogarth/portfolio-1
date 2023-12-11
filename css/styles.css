@@ -18,18 +18,19 @@
   display: block;
   color: #f2f2f2;
   text-align: center;
-  padding: 14px 16px;
+  padding: 10px 14px;
   text-decoration: none;
   font-size: 17px;
-  border-bottom: 3px solid transparent;
+  border-bottom: 1px solid transparent;
+  border-radius: 4px;
 }
 
 .topnav a:hover {
-  border-bottom: 5px solid #a2aaa5 ;
+  border: 1px solid #a2aaa5 ;
 }
 
 .topnav a.active {
-  border-bottom: 4px solid #a2aaa5 ;
+  border: 1px solid #a2aaa5 ;
 }
 nav {
   font-family: var(--heading-font-family) !important;
