@@ -16,21 +16,20 @@
 .topnav a {
   float: left;
   display: block;
-  color: #f2f2f2;
+ 
   text-align: center;
-  padding: 10px 14px;
+  padding: 1px 18px !important;
   text-decoration: none;
   font-size: 17px;
-  border-bottom: 1px solid transparent;
   border-radius: 4px;
 }
 
 .topnav a:hover {
-  border: 1px solid #a2aaa5 ;
+  border: 1px solid #bf8284 ;
 }
 
 .topnav a.active {
-  border: 1px solid #a2aaa5 ;
+  border: 1px solid #bf8284 ;
 }
 nav {
   font-family: var(--heading-font-family) !important;
@@ -62,13 +61,14 @@ h3 {
   font-weight: 300;
   line-height: 27px;
   padding: 13px 40px;
+  transition: all 150ms ease-in-out;
   
 
 }
 div a {
-  transition: all 150ms ease-in-out;
+  
 }
-div a:hover {
+.btn-branding:hover {
   filter: contrast(98%);
   transform: scale(1.1);
   
@@ -88,15 +88,11 @@ div a:hover {
     background:#f0c88f;
     opacity: 0.5;
     bottom: 0px;
-    transition: all 0.2s ease-out;
+   
   }
   
-  p:hover {
-    background-position: 0 15px;
-  }
+ 
   
-  
-
 
 img {
   margin-left: 190px;
@@ -134,15 +130,21 @@ img {
   font-weight: 300;
   line-height: 27px;
   padding: 13px 40px;
+  transition: all 150ms ease-in-out;
   
 }
 
-.btn-weather:hover {
+
+
+.btn-weather:hover, .btn-clock:hover, .btn-icecream:hover,  .btn-berlin:hover {
   text-decoration: none;
+  filter: contrast(98%);
+  transform: scale(1.1);
 }
 
 .btn-clock {
   background: #e8d39a;  
+  
 }
 .btn-icecream {
   
@@ -151,6 +153,7 @@ img {
 
 .btn-berlin {
   background:#6b6972 ;  
+  
 }
 
 .project-description {
@@ -169,7 +172,7 @@ img {
   .portrait {
     padding: 30px;
     background: var(--branding-color);
-    margin-top: 60px;
+    margin-top: 100px;
     margin-left: 50px;
     border-radius: 70px;
   
@@ -248,7 +251,16 @@ color:white;
 
 
 @media (max-width: 960px) {
- .home-text {
+  
+.topnav a.active {
+  border:none;
+}
+  .topnav a:hover {
+    transform: none;
+    border:none;
+  }
+ 
+  .home-text {
   margin: 0 auto;
  }
   
