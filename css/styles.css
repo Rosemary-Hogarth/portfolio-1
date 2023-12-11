@@ -10,6 +10,11 @@
 }
 
 
+nav {
+  font-family: var(--heading-font-family) !important;
+ 
+}
+
 
 
 h2 {
@@ -50,11 +55,11 @@ div a:hover {
 }
 
 
-  span {
+  .animation {
     position: relative;
   }
   
-  span:before {
+  .animation:before {
     content: "";
     position: absolute;
     left: 0;
@@ -70,7 +75,7 @@ div a:hover {
     background-position: 0 15px;
   }
   
-  span:hover:before {
+  .animation:hover:before {
     transform: translateY(5px)
   }
 
