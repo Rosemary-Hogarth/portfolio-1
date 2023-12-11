@@ -5,17 +5,36 @@
 }
 
 .hero {
-  padding-top: 50px;
+  padding-top: 40px;
   padding-bottom: 10px;
 }
 
+.topnav {
+  overflow: hidden;
+}
 
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  border-bottom: 3px solid transparent;
+}
+
+.topnav a:hover {
+  border-bottom: 5px solid #a2aaa5 ;
+}
+
+.topnav a.active {
+  border-bottom: 4px solid #a2aaa5 ;
+}
 nav {
   font-family: var(--heading-font-family) !important;
  
 }
-
-
 
 h2 {
   font-weight: 300;
@@ -75,9 +94,7 @@ div a:hover {
     background-position: 0 15px;
   }
   
-  .animation:hover:before {
-    transform: translateY(5px)
-  }
+  
 
 
 img {
@@ -85,7 +102,6 @@ img {
   border-radius: 40px;;
  
 }
-
 
 .text {
   margin-top: 150px;
@@ -141,7 +157,7 @@ img {
 }
 
 .about-section h1 {
-  font-size: 90px;
+  font-size: 70px;
   font-family: var(--heading-font-family);
   
   }
@@ -150,7 +166,7 @@ img {
   }
   
   .portrait {
-    padding: 60px;
+    padding: 30px;
     background: var(--branding-color);
     margin-top: 100px;
     margin-left: 30px;
@@ -158,18 +174,19 @@ img {
   
   }
 
-
 .contact-section {
   margin-top: 100px;
   padding-top: 30px;
   padding-bottom: 50px;
-  text-align: left;
+  
 }
 
 .contact-section h1 {
   font-size: 60px;
   font-family: var(--heading-font-family);
+  padding-left: 0;
 }
+
 
 .email-link {
 text-decoration: none;
@@ -190,6 +207,12 @@ color:white;
   -o-animation: fadeIn 5s;
   -ms-animation: fadeIn 5s;
 }
+
+.fade-in-text p {
+  font-size: 20px;
+}
+
+
 
 @keyframes fadeIn {
   0% { opacity: 0; }
