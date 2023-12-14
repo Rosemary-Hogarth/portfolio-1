@@ -65,15 +65,12 @@ h3 {
   
 
 }
-div a {
-  
-}
+
 .btn-branding:hover {
   filter: contrast(98%);
   transform: scale(1.1);
   
 }
-
 
   .animation {
     position: relative;
@@ -91,11 +88,20 @@ div a {
    
   }
   
- 
+  .tower-img {
+    margin-left: 160px;
+  }
+ .clock-img, .ice-img {
+  margin-left: 50px;
+ }
   
+ .weather-img, .berlin-img {
+margin-left: 50px;
+
+ }
 
 img {
-  margin-left: 190px;
+  
   border-radius: 40px;;
  
 }
@@ -156,30 +162,36 @@ img {
   
 }
 
-.project-description {
-  margin-left: 60px;
+.project-description-1, .project-description-2, .project-description-3, .project-description-4 {
+  margin-left: 90px;
+  margin-right: 60px;
 }
 
+.about-section {
+  margin-left: 50px;
+}
 .about-section h1 {
   font-size: 70px;
   font-family: var(--heading-font-family);
+
   
   }
   .about-section h2 {
     font-weight: 300;
+    
   }
   
   .portrait {
     padding: 30px;
     background: var(--branding-color);
     margin-top: 100px;
-    margin-left: 50px;
+    margin-left: 150px;
     border-radius: 70px;
   
   }
 
 .contact-section {
-  margin-top: 100px;
+  margin-top: 240px;
   padding-top: 30px;
   padding-bottom: 50px;
   
@@ -250,7 +262,7 @@ color:white;
 
 
 
-@media (max-width: 960px) {
+@media (max-width: 990px) {
   
 .topnav a.active {
   border:none;
@@ -267,14 +279,14 @@ color:white;
   .container h1 {
     font-size: 50px;
     font-weight: 500;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
   }
   .container {
     font-size: 30px;
     font-weight: 300;
     text-align: center;
     display:block;
-   
+margin: 0 auto;
     
   }
   .btn-branding {
@@ -297,6 +309,7 @@ color:white;
 
 .portrait {
   margin-left: 0;
+  
 }
 
 .contact-section {
