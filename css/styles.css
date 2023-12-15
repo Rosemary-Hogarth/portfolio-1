@@ -53,6 +53,12 @@ h3 {
   font-weight: 400;
 }
 
+.container-projects {
+  font-family: var(--heading-font-family);
+  font-weight: 300;  
+  margin: 70px 70px 70px 170px;
+}
+
 .btn-branding {
   background:var(--branding-color);
   border-radius: 20px;
@@ -63,7 +69,6 @@ h3 {
   padding: 13px 40px;
   transition: all 150ms ease-in-out;
   
-
 }
 
 .btn-branding:hover {
@@ -92,24 +97,36 @@ h3 {
     margin-left: 200px;
   }
 
- .clock-img, .ice-img {
-  margin-left: 10px;
+ .clock-img  {
+  margin-left: 50px;
   margin-top: 30px;
  }
+ .ice-img {
+margin-left: 65px;
+ }
   
- .weather-img, .berlin-img {
+ .weather-img {
 margin-top: 30px;
+margin-left: 45px;
 
  }
 
- .project-description-1, .project-description-3 {
-  margin-left: 50px;
-  margin-right: 40px;;
+ .berlin-img {
+  margin-top: 30px;
+margin-left: 54px;
+ }
+
+ .project-description-1 {
+  margin-left: 100px;
+  
  }
  
+ .project-description-3 {
+  margin-left: 110px;
+ }
  .project-description-2, .project-description-4 {
-   margin-left: 50px;
-   margin-right: 20px;;
+   margin-left: 85px;
+   margin-right: 70px;;
  }
 
 img {
@@ -150,7 +167,6 @@ img {
   
 }
 
-
 .btn-weather:hover, .btn-clock:hover, .btn-icecream:hover,  .btn-berlin:hover {
   text-decoration: none;
   filter: contrast(98%);
@@ -172,7 +188,6 @@ img {
 }
 
 
-
 .about-section {
   margin-left: 50px;
 }
@@ -190,7 +205,7 @@ img {
   .portrait {
     padding: 30px;
     background: var(--branding-color);
-    margin-top: 175px;
+    margin-top: 185px;
     margin-left: 100px;
     border-radius: 70px;
   
@@ -308,6 +323,10 @@ color:white;
 margin: 0 auto;
     
   }
+
+ 
+
+  
   .btn-branding {
     padding: 5px 20px;
   }
@@ -329,7 +348,7 @@ margin: 0 auto;
 .portrait {
   margin-left: 0;
   margin-top:20px;
-  max-width: 300px;
+  max-width: 250px;
   
 }
 
