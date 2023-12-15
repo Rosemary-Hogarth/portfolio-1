@@ -97,37 +97,25 @@ h3 {
     margin-left: 200px;
   }
 
- .clock-img  {
-  margin-left: 50px;
-  margin-top: 30px;
- }
- .ice-img {
-margin-left: 65px;
- }
   
- .weather-img {
-margin-top: 30px;
-margin-left: 45px;
-
- }
-
- .berlin-img {
-  margin-top: 30px;
-margin-left: 54px;
- }
-
- .project-description-1 {
-  margin-left: 100px;
+    
   
- }
+   .project-description-1, .project-description-3 {
+    margin-left: 50px;
+    
+   }
+
+   .project-description-2, .project-description-4 {
+margin-left: 50px;
+
+   } 
+   
+
+
+
+
  
- .project-description-3 {
-  margin-left: 110px;
- }
- .project-description-2, .project-description-4 {
-   margin-left: 85px;
-   margin-right: 70px;;
- }
+
 
 img {
   border-radius: 40px;
@@ -321,7 +309,6 @@ color:white;
     text-align: center;
     display:block;
 margin: 0 auto;
-    
   }
 
  
