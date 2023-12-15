@@ -94,11 +94,22 @@ h3 {
 
  .clock-img, .ice-img {
   margin-left: 10px;
+  margin-top: 30px;
  }
   
  .weather-img, .berlin-img {
-margin-left: 10px;
+margin-top: 30px;
 
+ }
+
+ .project-description-1, .project-description-3 {
+  margin-left: 50px;
+  margin-right: 40px;;
+ }
+ 
+ .project-description-2, .project-description-4 {
+   margin-left: 50px;
+   margin-right: 20px;;
  }
 
 img {
@@ -113,7 +124,7 @@ img {
 .socials a {
   text-decoration: none;
   font-size: 20px;
-  margin: 80px 30px;
+  margin: 80px 30px 20px 30px;
   padding: 5px 10px;
   color: #2b3035;
   background-color: #f9f7fe;
@@ -160,15 +171,7 @@ img {
   
 }
 
-.project-description-1, .project-description-3 {
- margin-left: 50px;
- margin-right: 40px;;
-}
 
-.project-description-2, .project-description-4 {
-  margin-left: 50px;
-  margin-right: 20px;;
-}
 
 .about-section {
   margin-left: 50px;
@@ -232,8 +235,21 @@ color:white;
   
 }
 
+.open-sourced {
+  text-align: center;
+  font-size: 10px;
+  font-family: var(--heading-font-family);;
+  
+}
 
+.open-sourced a {
+  color: #2b3035;
+}
 
+.open-sourced a:hover {
+  color: var(--branding-color);
+  text-decoration: none;
+}
 
 @keyframes fadeIn {
   0% { opacity: 0; }
@@ -317,6 +333,10 @@ margin: 0 auto;
 
 .contact-section {
   text-align: center;
+}
+
+.open-sourced {
+  font-size: 7px;
 }
 }
 
