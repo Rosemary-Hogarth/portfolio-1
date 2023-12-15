@@ -93,11 +93,11 @@ h3 {
   }
 
  .clock-img, .ice-img {
-  margin-left: 50px;
+  margin-left: 10px;
  }
   
  .weather-img, .berlin-img {
-margin-left: 50px;
+margin-left: 10px;
 
  }
 
@@ -160,9 +160,14 @@ img {
   
 }
 
-.project-description-1, .project-description-2, .project-description-3, .project-description-4 {
-  margin-left: 90px;
-  margin-right: 60px;
+.project-description-1, .project-description-3 {
+ margin-left: 50px;
+ margin-right: 40px;;
+}
+
+.project-description-2, .project-description-4 {
+  margin-left: 50px;
+  margin-right: 20px;;
 }
 
 .about-section {
